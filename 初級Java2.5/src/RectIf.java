@@ -5,9 +5,11 @@ public class RectIf extends MyFrame{
 		setColor(0,128,0);
 		int i;
 		for(i=0;i<9;i++) {
-			if(i>=4&&i<=7) {
+			if(i==0) {
+				fillRect(x,60,10,100);
+			}	else if(i==8) {
 				fillRect(x,100,10,100);
-			}	else  {
+			}else {
 				fillRect(x,80,10,100);
 			}
 			x+=20;
