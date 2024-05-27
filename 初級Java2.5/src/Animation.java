@@ -5,7 +5,7 @@ public void run() {
 	while(x<=170) {
 		clear();
 		setColor(0,128,0);
-		fillRect(x,80,10,100);
+		fillOval(x,80,60,60);
 		x+=5;
 		sleep(0.1);
 	}
